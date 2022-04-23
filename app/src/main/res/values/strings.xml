@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Cat</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="next"><![CDATA[->]]></string>
+</resources>

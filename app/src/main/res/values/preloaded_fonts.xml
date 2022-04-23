@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/anton</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/diplomata</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/fascinate_inline</item>
+        <item>@font/geostar</item>
+        <item>@font/monofett</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/ribeye_marrow</item>
+        <item>@font/vast_shadow</item>
+    </array>
+</resources>

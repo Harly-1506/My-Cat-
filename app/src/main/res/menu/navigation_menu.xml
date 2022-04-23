@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group>
+        <item
+            android:id="@+id/nav_info"
+            android:title="Sửa thông tin " />
+        <item
+            android:id="@+id/nav_vaccination"
+            android:title="Thông tin tiêm chủng" />
+
+        <item
+            android:id="@+id/nav_healthcondition"
+            android:title="Sức khỏe của mèo" />
+        <item
+            android:id="@+id/nav_tool"
+            android:title="Dụng cụ cho mèo" />
+        <item
+            android:id="@+id/nav_diet"
+            android:title="Chế độ ăn uống" />
+        <item
+            android:id="@+id/nav_album"
+            android:title="Album ảnh mèo của bạn" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Đăng xuất" />
+    </group>
+</menu>

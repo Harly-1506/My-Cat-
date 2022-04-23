@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink3"
+    tools:context=".Activity_health">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="401dp"
+        android:layout_height="45dp"
+        android:background="@color/pink3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/img_back_health"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:background="@color/pink3"
+        android:src="@drawable/back1"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="@color/pink2"
+        android:text="Kiểm tra sức khỏe của mèo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="389dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Quan sát thời gian ngủ của mèo"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_textview"
+            android:text=" - Khi mắc bệnh chúng thường ngủ nhiều hơn, nếu mèo không có dấu hiệu ốm đau, như nôn mửa, tiêu chảy, chán ăn, hoặc sưng phù thì bạn vẫn nên chú ý đến chúng"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Kiểm tra cân nặng"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_textview"
+            android:text=" - Mèo của bạn có dấu hiệu kén ăn và tụt cân, đều có thể là dấu hiệu mắc bệnh, nếu nghi ngờ bạn nên cân mèo một tuần một lần ở nhà, nếu mèo tiếp tục sút cân, bạn cần đưa chúng đi khám ngay"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Quan sát triệu chứng"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_textview"
+            android:text=" - Nhận biết nôn mửa: Nếu mèo có hiện tượng nôn, đặc biệt nhiều lần trong ngày, và cảm thấy mệt mỏi, thì đây là dấu hiệu rõ ràng. Lưu ý đa số mèo có thói quen nôn mửa, có nghĩa là chúng thỉnh thoảng thanh lọc cơ thể, bạn ko cần lo lắng nếu mèo vẫn hoạt động linh hoạt, nhanh nhẹn và bình thường"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_textview"
+            android:text=" - Quan sát bệnh tiêu chảy: Phân mèo bình thường có dạng giống xúc xích. Khi mắc phải bệnh tiêu chảy, phân ở dạng lỏng và không có hình dạng cố định, và điều này hoàn toàn không bình thường, bạn có thể quan sá 24 giờ để xem mèo có ăn uống bình thường hay không. Tuy nhiên nếu nôn mửa đi kèm mệt mỏi bạn nên đem đi bác sĩ."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/catsick1" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
